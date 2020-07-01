@@ -3,7 +3,7 @@ Pipelined CPU that used forwarding to resolve data hazards and improve throughpu
 
 This pipeline was programmed using a MIPS architecture consisting of 5 stages:
 1. IF: Instruction fetch from memory
-2. ID: Insturction decode and register read
+2. ID: Instruction decode and register read
 3. EX: Execute operation or calculate address
 4. MEM: Access memory operand
 5. WB: Write result back to register
